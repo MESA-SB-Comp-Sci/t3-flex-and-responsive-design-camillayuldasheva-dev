@@ -2,30 +2,34 @@
   box-sizing: border-box;
 }
 header{
-  /* Add height and width here */
   background-color: lightcyan;
   text-align: center;
+  height: 39vh; 
+  width: 100vw; 
 }
 
-.middle-section{
-  /* Add height and width here */
-  background-color: lightpink;
-  /* Add flex properties here */
+.middle-section {
+
 }
 
-aside{
-  /* Add height and width here */
-  background-color: lightseagreen;
+aside {
+  background-color: lightseagreen; 
+  display: flex; 
+  flex-direction: column;
+  width: 30vw; 
+  height: 80vh; 
 }
 
 .image-section{
-  /* Add height and width here */
   background-color: aliceblue;
-  /* Add flex properties here */
-  text-align: left;
+  text-align: left; 
+  display: flex; 
+  justify-content:center;
+  flex-direction: column; 
+  
 }
 
 footer{
-  /* Add height and width here */
   background-color: lime;
+  height: 20vh; 
 }
