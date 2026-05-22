@@ -16,7 +16,7 @@ aside {
   background-color: lightseagreen; 
   display: flex; 
   flex-direction: column;
-  width: 30vw; 
+  width: 30%; 
   height: 80vh; 
 }
 
