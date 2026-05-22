@@ -9,7 +9,7 @@ header{
 }
 
 .middle-section {
-
+ display: flex; 
 }
 
 aside {
@@ -24,7 +24,8 @@ aside {
   background-color: aliceblue;
   text-align: left; 
   display: flex; 
-  justify-content:center;
+  justify-content:flex-start;
+  align-items: flex-start; 
   flex-direction: column; 
   
 }
